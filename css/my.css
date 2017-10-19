@@ -1,0 +1,148 @@
+
+#order-filter {
+float: left;
+padding: 5px;
+width: 370px;
+height: 250px;
+border: 1px solid #aaaaaa;
+}
+#order-calc {
+float: left;
+overflow-y: scroll;
+width: 772px;
+height: 260px;
+border: 1px solid #aaaaaa;
+}
+#order-total {
+float: left;
+width: 100px;
+height: 260px;
+border: 1px solid #aaaaaa;
+}
+#order-cat {
+float: left;
+overflow-y: scroll;
+width: 200px;
+height: 450px;
+border: 1px solid #aaaaaa;
+}
+
+#order-prod {
+float: left;
+overflow-y: scroll;
+width: 680px;
+height: 450px;
+border: 1px solid #aaaaaa;
+}
+
+#order-prod::-webkit-scrollbar {
+/* width: 12px; */
+}
+
+#order-totlist {
+float: left;
+width: 270px;
+height: 450px;
+border: 1px solid #aaaaaa;
+}
+
+#order-status {
+float: left;
+width: 1154px;
+height: 30px;
+border: 1px solid #aaaaaa;
+}
+#prodorder {
+margin: 5px;
+float: left;
+width: 120px;
+height: 150px;
+}
+#prodimg {
+width: 120px;
+height:110px;
+padding: 0px;
+padding-left: 0px;
+}
+#prodorder-name {
+width: 110px;
+padding: 3px;
+height: 30px;
+padding-left: 10px;
+text-align: center;
+}
+#prodspan {
+display: table-cell;
+width: 100px;
+height: 30px;
+vertical-align: middle;
+line-height: normal;
+text-align: center;
+font-weight: bold;
+}
+#order-cats {
+display: table-cell;
+width: 200px;
+height: 40px;
+vertical-align: middle;
+line-height: normal;
+text-align: center;
+font-weight: bold;
+}
+#order-cats:hover {
+background: #cccccc;
+}
+#order-cats:active {
+background: #aaaaaa;
+}
+
+
+#order-list-temp-grid {
+padding: 0px;
+margin: 0px;
+height: 1px;
+}
+#order-list {
+padding-top: 0px;
+}
+.summary {
+display: none;
+}
+#order-clientf {
+width: 100px;
+height: 30px;
+background: #aaaaaa;
+text-align: center;
+}
+.blue {
+background: #0000ff;
+}
+.blink {
+-webkit-animation: blink1 1s linear infinite;
+}
+.red {
+background: rgba(255,0,0, 0.2);
+}
+
+@-webkit-keyframes blink1 {
+0% {background: rgba(255,0,0, 1);}
+100% {background: rgba(255,255,0, 1);}
+}
+.green {
+background: rgba(0,255,0, 0.2);
+}
+.blue {
+background: rgba(0,0,255, 0.2);
+}
+
+#cash-grid {
+float: none;
+position: absolute;
+left: 0;
+width: 100%;
+}
+
+#order-cat-id-hr {
+margin: 0 0 0 0;
+}
+
